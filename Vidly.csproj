@@ -215,6 +215,22 @@
     <Compile Include="Migrations\202101152159167_SeedGenre.Designer.cs">
       <DependentUpon>202101152159167_SeedGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101171447481_UpdateChanges.cs" />
+    <Compile Include="Migrations\202101171447481_UpdateChanges.Designer.cs">
+      <DependentUpon>202101171447481_UpdateChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101171557113_DeleteMoviesTable.cs" />
+    <Compile Include="Migrations\202101171557113_DeleteMoviesTable.Designer.cs">
+      <DependentUpon>202101171557113_DeleteMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101171600586_AddMovieTableandLinkthekeys.cs" />
+    <Compile Include="Migrations\202101171600586_AddMovieTableandLinkthekeys.Designer.cs">
+      <DependentUpon>202101171600586_AddMovieTableandLinkthekeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202101171616142_SaveChanges.cs" />
+    <Compile Include="Migrations\202101171616142_SaveChanges.Designer.cs">
+      <DependentUpon>202101171616142_SaveChanges.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -342,6 +358,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101152159167_SeedGenre.resx">
       <DependentUpon>202101152159167_SeedGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101171447481_UpdateChanges.resx">
+      <DependentUpon>202101171447481_UpdateChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101171557113_DeleteMoviesTable.resx">
+      <DependentUpon>202101171557113_DeleteMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101171600586_AddMovieTableandLinkthekeys.resx">
+      <DependentUpon>202101171600586_AddMovieTableandLinkthekeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101171616142_SaveChanges.resx">
+      <DependentUpon>202101171616142_SaveChanges.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
